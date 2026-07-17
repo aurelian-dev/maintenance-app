@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Aurelian — Temporarily under maintenance</title>
+    <style>
+      :root {
+        --ink: #0e1420;
+        --ink-2: #141d2b;
+        --line: #263447;
+        --text: #eef2f7;
+        --muted: #9fb0c3;
+        --gold: #c9a75f;
+      }
+      * { box-sizing: border-box; }
+      html, body { height: 100%; }
+      body {
+        margin: 0;
+        background: radial-gradient(1200px 700px at 50% -10%, #1a2536 0%, var(--ink) 60%);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        line-height: 1.55;
+      }
+      .card {
+        width: 100%;
+        max-width: 560px;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(20,29,43,0.9), rgba(14,20,32,0.9));
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 48px 32px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+      }
+      .brand {
+        font-size: 14px;
+        letter-spacing: 0.28em;
+        text-transform: uppercase;
+        color: var(--gold);
+        font-weight: 600;
+        margin-bottom: 28px;
+      }
+      h1 {
+        font-size: 26px;
+        margin: 0 0 14px;
+        font-weight: 650;
+        letter-spacing: -0.01em;
+      }
+      p {
+        margin: 0 auto 12px;
+        color: var(--muted);
+        max-width: 42ch;
+        font-size: 16px;
+      }
+      .rule {
+        width: 44px;
+        height: 2px;
+        background: var(--gold);
+        opacity: 0.7;
+        margin: 26px auto 22px;
+        border: 0;
+      }
+      .contact {
+        font-size: 15px;
+        color: var(--text);
+      }
+      .contact a { color: var(--gold); text-decoration: none; }
+      .contact a:hover { text-decoration: underline; }
+      @media (max-width: 480px) {
+        .card { padding: 36px 22px; }
+        h1 { font-size: 22px; }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card" role="main">
+      <div class="brand">Aurelian</div>
+      <h1>We&rsquo;ll be back shortly</h1>
+      <p>Aurelian is temporarily undergoing maintenance. Thank you for your patience &mdash; we&rsquo;re working to restore service and expect to be back soon.</p>
+      <hr class="rule" />
+      <p class="contact">Questions? Reach us at <a href="mailto:support@aurelian.work">support@aurelian.work</a>.</p>
+    </main>
+  </body>
+</html>
